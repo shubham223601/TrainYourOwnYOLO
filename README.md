@@ -1,4 +1,4 @@
-# Traincustome data yolo model: 
+# Train custom data YOLO model: 
 
 ## Annotate the images
 use Microsofts https://github.com/Microsoft/VoTT/releases for anotating
@@ -10,9 +10,9 @@ use Microsofts https://github.com/Microsoft/VoTT/releases for anotating
 6. inside path TrainYourOwnYOLO/Data/Source_Images/Training_Images, you will find a csv folder called vott-csv-export containing Annotations-export.csv
 7. in path TrainYourOwnYOLO/Image_Annotation run the script to convert the annotation to YOLO accepted format
 
-## Training -  download the pre-trained dark-net weights and convert them to YOLO format
+## Training -  Download the pre-trained dark-net weights and convert them to YOLO format
 1. from path TrainYourOwnYOLO/2_Training run python Download_and_Convert_YOLO_weights.py
 2. train the model using python Train_YOLO.py
 
-## test on new dataset
+## Test on new Dataset
 1. python Detector.py from path TrainYourOwnYOLO/3_Inference
